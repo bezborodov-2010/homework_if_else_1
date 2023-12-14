@@ -69,7 +69,7 @@ public class Main {
         if (one >= two && one >= three) {
             System.out.println("Самое большое число - " + one);
         } else if (two >= one && two >= three) {
-            System.out.println("Самое большое число - " + two);
+            System.out.println("Самое большое число - " +n);
         } else {
             System.out.println("Самое большое число - " + three);
         }
