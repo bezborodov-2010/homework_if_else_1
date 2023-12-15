@@ -27,11 +27,9 @@ public class Main {
 
         if (ageHuman >= 2 && ageHuman <= 6) {
             System.out.println("Если возраст человека равен " + ageHuman + " то ему нужно ходить в детский сад");
-        }
-        if (ageHuman >= 7 && ageHuman <= 17) {
+        } else if (ageHuman >= 7 && ageHuman <= 17) {
             System.out.println("Если возраст человека равен " + ageHuman + " то ему нужно ходить в школу");
-        }
-        if (ageHuman >= 18 && ageHuman <= 24) {
+        } else if (ageHuman >= 18 && ageHuman <= 24) {
             System.out.println("Если возраст человека равен " + ageHuman + " то его место в университете");
         } else if (ageHuman > 24) {
             System.out.println("Если возраст человека равен " + ageHuman + " то ему пора ходить на работу");
@@ -41,11 +39,9 @@ public class Main {
 
         if (ageChild <5) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему нельзя кататься на аттракционе");
-        }
-        if (ageChild >= 5 && ageChild <= 14) {
+        } else if (ageChild >= 5 && ageChild <= 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему можно кататься на аттракционе в сопровождении взрослого");
-        }
-        else if (ageChild > 14) {
+        } else if (ageChild > 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему можно кататься на аттракционе без сопровождения взрослого");
         }
         System.out.println("Задача 6");
@@ -56,8 +52,7 @@ public class Main {
 
         if (numberTiket <= 102 && numberTiket <= 60) {
             System.out.println("Место в вагоне есть, оно сидячее, сидячих мест осталось " + sitTiket);
-        }
-        if (numberTiket <= 102 && numberTiket > 60) {
+        } else if (numberTiket <= 102 && numberTiket > 60) {
             System.out.println("Место в вагоне есть, оно стоячее, стоячих мест осталось " + stayTiket);
         } else if (numberTiket > 102) {
             System.out.println("Мест в вагоне нет");
